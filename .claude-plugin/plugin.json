@@ -1,13 +1,22 @@
 {
   "name": "cc-worktree-marketplace",
   "version": "1.0.0",
-  "description": "Task management using git worktrees for parallel development - automated workspace isolation and smart directory selection",
-  "author": "Jesse Stanger",
-  "repository": "https://github.com/stangahh/cc-worktree-marketplace",
-  "skills": ["skills/git-branching", "skills/worktree-manager"],
-  "agents": [],
-  "requirements": {
-    "git": ">=2.5.0"
+  "description": "Task management using git worktrees for parallel development with automated workspace isolation",
+  "author": {
+    "name": "Jesse Stanger"
   },
-  "tags": ["git", "worktree", "workflow", "automation", "parallel-development"]
+  "repository": "https://github.com/stangahh/cc-worktree-marketplace",
+  "keywords": [
+    "git",
+    "worktree",
+    "workflow",
+    "automation",
+    "parallel-development"
+  ],
+  "mcpServers": {
+    "atlassian-mcp-server": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp"
+    }
+  }
 }

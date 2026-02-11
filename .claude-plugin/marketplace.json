@@ -1,0 +1,43 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-worktree-marketplace",
+  "owner": {
+    "name": "Jesse Stanger"
+  },
+  "metadata": {
+    "description": "Git worktree automation and task management for parallel development workflows",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "worktree-manager",
+      "source": "./",
+      "description": "Task management using git worktrees for parallel development with automated workspace isolation",
+      "version": "1.0.0",
+      "author": {
+        "name": "Jesse Stanger"
+      },
+      "repository": "https://github.com/stangahh/cc-worktree-marketplace",
+      "keywords": [
+        "git",
+        "worktree",
+        "workflow",
+        "automation",
+        "parallel-development",
+        "jira",
+        "atlassian"
+      ],
+      "category": "productivity",
+      "skills": [
+        "./.claude/skills/worktree-manager",
+        "./.claude/skills/git-branching"
+      ],
+      "mcpServers": {
+        "atlassian-mcp-server": {
+          "type": "http",
+          "url": "https://mcp.atlassian.com/v1/mcp"
+        }
+      }
+    }
+  ]
+}
