@@ -18,4 +18,7 @@ claude plugin marketplace add stangahh/cc-worktree-marketplace
 claude plugin install worktree-manager@cc-worktree-marketplace
 ```
 
-**Requirements:** Git >=2.5.0; for worktree support
+**Requirements:**
+
+- Claude Code >=2.0.12 (for plugin and marketplace support)
+- Git >=2.5.0 (for worktree support)
